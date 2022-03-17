@@ -20,6 +20,11 @@
                 font-style: italic;
                 font-size:30px;
             }
+            h4{
+                color:burlywood;
+                font-family:monospace;
+                font-size:20px;
+            }
             p{
                 color:rgb(201, 187, 111);
                 font-size:15px;
@@ -31,6 +36,30 @@
                 text-align: center;
                 background-image: url("GalaxyBG3.jpg")
             }
+            .button{ 
+                margin: auto;
+                width:150px; 
+                height:50px; 
+                border:2px solid #3333ff; 
+                border-radius:10px; 
+                background-color:#4b4b77; 
+                align-self:center;
+                } 
+
+            .button > p{ 
+                text-align:center; 
+                font-family:avenir; 
+                font-weight: bold; 
+                text-decoration: underline; 
+                } 
+            div:hover{ 
+                background-color:#8080ff; 
+                color:#fff; 
+                } 
+
+            #link:visited{ 
+                 color:green; 
+            }
         </style>
     <title>Min Superhelt</title>
     <meta name="author" content="Henrik">
@@ -39,15 +68,30 @@
     <meta name="description" content="En side om min superhelt">
     <meta name="keywords" content="Superhelt, Metamorph">
     <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     </head>
     <body>
         <h1>Metamorph</h1>
         <h2>Historie</h2>
         <p>Metamorph var en vanlig gutt før atomkraftverket I <em>Russland</em> sprengte.</p>
-        <p>Han var ute og gikk da han støtte på en lysende, <span>grønn</span> kule av atomavfall som svevde I luften. </p> <br>
+        <p>Han var ute og gikk da han støtte på en lysende, <span>grønn</span> kule av atomavfall som svevde I luften. </p>
         <p>Da han tok på det, snurret det rundt ham som en slange. Slik fikk han beltet og superkreftene sine. </p>
-        <img src="Minsuperhelt.png" alt="Bilde av Superhelt" width="350">
+        <img src="Minsuperhelt.png" alt="Bilde av Superhelt" width="350" border="10">
+        <hr>
+
         <h3>Egenskaper og eiendeler</h3>
-        <img src="Belt_blueprint.jpg" alt="Belte" width="650">
+        <h4>Formshifting</h4>
+        <p>Kan bli hva han vil</p>
+
+        <p><a target="blank" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">link</a> til hemmeligheten bak formshifting</p>
+        <h4>Utility beltet</h4>
+        <img src="Belt_blueprint.jpg" alt="Belte" width="650"><br>
+        <hr>
+
+        <p>Ikke Scam:</p>
+        <a href="https://www.youtube.com/watch?v=q6EoRBvdVPQ" id="link" target="blank"> 
+            <div class = "button"> 
+                <p>Click me!</p> 
+            </div> 
     </body>
 </html>
